@@ -1,6 +1,6 @@
 ## install
 ```shell
-yarn install -D yotako
+yarn global add yotako
 ```
 
 ## usage
