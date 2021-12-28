@@ -9,6 +9,7 @@
   "files": [
     "./bin",
     "./src",
+    "./package.json",
     "README.md"
   ],
   "bin": "./bin/index.js",
