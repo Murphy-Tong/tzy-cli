@@ -2,7 +2,7 @@ const path = require("path");
 module.exports = {
   entry: "./src/index.ts",
   output: {
-    filename: "index.js",
+    filename: "tzy.js",
     path: path.resolve("./bin"),
   },
   resolve: {

@@ -1,4 +1,5 @@
-#!ts-node
+#!/usr/bin/env node
+
 import { Command } from "commander";
 import path from "path";
 import { json } from "./utils/json";
@@ -11,7 +12,5 @@ async function start() {
     ss(program)
     program.parse(process.argv)
 }
-
-
 
 start()
